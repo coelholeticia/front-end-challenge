@@ -96,6 +96,24 @@
     
 }
 
+.repositorios{
+    margin: 50 0;
+}
+
+.repositorios-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Inpu-repo{
+    width: 50%;
+    height: 30px;
+}
+
+
 
 @media(max-width: 790px){
 

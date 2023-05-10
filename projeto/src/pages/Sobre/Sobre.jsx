@@ -1,6 +1,7 @@
 import eu from '../../assets/eu.png'
 import'./sobre.css'
 
+
 function Sobre (){
     return(
         <div className="conteudo-sobre">
@@ -21,13 +22,16 @@ function Sobre (){
             </p>
             
 
-        </div>
-            <div className="image">
-                <img className="eu" src={eu} alt='Desenvolvedora Letícia Coelho' />
             </div>
+                <div className="image">
+                    <img className="eu" src={eu} alt='Desenvolvedora Letícia Coelho' />
+            </div>
+            
 
 
         </div>
+
+        
     )
 }
 

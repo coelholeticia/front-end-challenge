@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import projeto1 from '../../assets/projeto1.png'
 import projeto2 from '../../assets/projeto2.png'
 import projeto3 from '../../assets/Capa.png'
-import projeto3sob from '../../assets/Sobre.png'
-import Sobreprojeto3 from '../../assets/Paleta.png'
+import Repositorios from '../Apigit/Repositorios'
 
 function Home(){
     return(
@@ -55,9 +54,8 @@ function Home(){
                     </li> 
                 </ul>
             </div>
-            <div className='botao'>
-                    <a className='link-github' href='https://github.com/coelholeticia' target='_blank'> Vejam meu GITHUB </a> 
-                    <a className='link-github' href='https://www.behance.net/coelholett9af7' target='_blank'> Vejam meu BEHANCE </a>     
+            <div className='repositorios'>
+                < Repositorios/>
             </div>
 
             
