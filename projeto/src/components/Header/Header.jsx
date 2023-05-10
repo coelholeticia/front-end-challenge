@@ -16,6 +16,9 @@ function Header(){
                 <li className='item-menu'>
                     <Link to="/contato" className='link'>Contato</Link>
                 </li>
+                <li className='item-menu'>
+                    <Link to="/repositorios" className='link'>Repositorios-GitHub</Link>
+                </li>
             </ul>
         </div>
     )
